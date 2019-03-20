@@ -4,7 +4,7 @@ const app = express();
 
 app.use(reply());
 
-app.listen(5000, err => {
+app.listen(6000, err => {
     if(!err) {
         console.log("服务器启动成功`");
     }else {
